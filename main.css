@@ -1,0 +1,81 @@
+
+
+body {
+    background-color: #FFC700;
+    font-family: "Noto Sans JP",sans-serif;
+    margin: 0px;
+}
+
+a {
+    color: black;
+    text-decoration-thickness: 2px;
+}
+
+.top {
+    margin: 0 200px;
+}
+
+.top-logo {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 7em;
+    letter-spacing: .2em;
+    font-weight: bold;
+}
+
+.top-text {
+    margin-top: -100px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.top-links{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.top-links a{
+    font-size: 3em;
+    margin-right: 50px;
+
+}
+
+.project {
+    background-color: white;
+    padding: 20px 200px;
+}
+
+.contact {
+    padding: 20px 200px;
+}
+
+
+.main h3 {
+    font-size: 3em;
+    letter-spacing: .2em;
+    margin-top: 30px;
+}
+
+.main h4 {
+    font-size: 1.5em;
+    margin-bottom: -15px;
+}
+
+.project-text {
+    line-height: 1.7em;
+    letter-spacing: .1em;
+}
+
+.project-link {
+    text-align: right;
+}
+
+.project-link a {
+    margin-right: 10px;
+}
+
+.form-area {
+    text-align: center;
+}
