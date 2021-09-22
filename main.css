@@ -47,7 +47,7 @@ a {
     padding: 20px 200px;
 }
 
-.contact, .block2, .block4, .block6 {
+.contact, .heading, .block2, .block4, .block6 {
     padding: 20px 200px;
 }
 
@@ -82,10 +82,14 @@ a {
 
 .heading {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.heading h2{
     font-size: 2.5em;
     letter-spacing: .4em;
     font-weight: bold;
-    margin-top: -30px;
 }
 
 li {
