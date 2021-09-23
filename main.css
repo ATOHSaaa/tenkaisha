@@ -6,6 +6,10 @@ body {
     margin: 0px;
 }
 
+h4 {
+    font-size: 1.2em;
+}
+
 a {
     color: black;
     text-decoration-thickness: 2px;
@@ -114,4 +118,10 @@ li {
     display: inline-block;
     margin-right: 15px;
     text-decoration-thickness: 1px;
+}
+
+.member a {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: .8em;
 }
