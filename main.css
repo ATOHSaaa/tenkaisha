@@ -131,7 +131,7 @@ li {
     text-decoration-thickness: 1px;
 }
 
-.member a {
+.member h4 a {
     display: inline-block;
     margin-right: 5px;
     font-size: .8em;
