@@ -152,6 +152,22 @@ li {
     font-size: .8em;
 }
 
+.degree {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.detail {
+    display: block;
+}
+
+.foot-text {
+    margin-top: 50px;
+}
+
+
 @media screen and (max-width: 767px) {
     .top-logo {
         font-size: 5em;
@@ -184,4 +200,5 @@ li {
         font-size: 0.7em;
         padding: 20px;
     }
+    
 }
