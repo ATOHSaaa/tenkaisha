@@ -31,7 +31,7 @@ a {
 }
 
 .top-logo {
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     font-size: 7em;
     letter-spacing: .2em;
@@ -55,6 +55,10 @@ a {
     font-size: 3em;
     margin-right: 50px;
 
+}
+
+.right-link {
+    margin-right: 0px;
 }
 
 .project, .block1, .block3, .block5 {
@@ -135,4 +139,38 @@ li {
     display: inline-block;
     margin-right: 5px;
     font-size: .8em;
+}
+
+@media screen and (max-width: 1000px) {
+    .top-logo {
+        font-size: 5em;
+        margin-bottom: 150px;;
+    }
+
+    .top {
+        margin: 0 15px;
+    }
+
+    .project, .block1, .block3, .block5 {
+        background-color: white;
+        padding: 20px 15px;
+    }
+    
+    .contact, .heading, .block2, .block4, .block6 {
+        padding: 20px 15px;
+    }
+
+    .block3 {
+        display: none;
+    }
+
+    .heading h2 {
+        font-size: 1.2em;
+        letter-spacing: .1em;
+    }
+
+    .heading p {
+        font-size: 0.7em;
+        padding: 20px;
+    }
 }
