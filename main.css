@@ -63,11 +63,11 @@ a {
 
 .project, .block1, .block3, .block5 {
     background-color: white;
-    padding: 20px 400px;
+    padding: 20px 20%;
 }
 
 .contact, .heading, .block2, .block4, .block6 {
-    padding: 20px 400px;
+    padding: 20px 20%;
 }
 
 
@@ -141,7 +141,7 @@ li {
     font-size: .8em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
     .top-logo {
         font-size: 5em;
         margin-bottom: 150px;;
@@ -160,7 +160,7 @@ li {
         padding: 20px 15px;
     }
 
-    .block3 {
+    .from-pc {
         display: none;
     }
 
