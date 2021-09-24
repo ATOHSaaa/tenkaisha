@@ -1,0 +1,1 @@
+document.write('<header><p class="nav-top"><a href="./index.html">転回社</a></p></header>');
