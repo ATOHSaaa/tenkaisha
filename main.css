@@ -124,6 +124,17 @@ li {
     margin-bottom: 5px;
 }
 
+.member h3 {
+    font-size: 3em;
+    letter-spacing: .2em;
+    margin-top: 30px;
+}
+
+.member h4 {
+    letter-spacing: .1em;
+    font-size: 1.4em;
+}
+
 .heading-links {
     margin-bottom: 50px;
     text-align: center;
