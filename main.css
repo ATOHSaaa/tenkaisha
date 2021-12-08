@@ -62,7 +62,6 @@ a {
 
 .top-logo {
     margin-top: 150px;
-    text-align: center;
     font-size: 7em;
     letter-spacing: .2em;
     font-weight: bold;
@@ -161,11 +160,15 @@ a {
 }
 
 .heading  h2{
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: .4em;
     font-weight: bold;
     display: block;
     text-align: center;
+}
+
+.heading p {
+    margin-top: -80px;
 }
 
 .page-top {
