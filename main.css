@@ -168,14 +168,17 @@ a {
 }
 
 .heading p {
-    margin-top: -80px;
+    margin-top: 0px;
 }
 
 .page-top {
-    font-size: 4em;
     letter-spacing: .4em;
     font-weight: bold;
     display: block;
+}
+
+.page-top h2 {
+    font-size: 4em;
     text-align: center;
 }
 
@@ -280,14 +283,17 @@ input {
         letter-spacing: .1em;
     }
 
+    .heading {
+        margin-top: -30px;
+    }
+
     .heading p {
         font-size: 0.7em;
-        padding: 20px;
+        padding: 0px 20px;
     }
 
     .page-top {
         font-size: 0.7em;
-        padding: 20px
     }
     
 }
