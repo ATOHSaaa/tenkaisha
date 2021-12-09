@@ -67,7 +67,7 @@ a {
 }
 
 .top-logo {
-    margin-top: 100px;
+    margin: 100px 5% 100px 10%;
     font-size: 7em;
     letter-spacing: .2em;
     font-weight: bold;
@@ -116,7 +116,7 @@ a {
 
 .block100 {
     background-color: white;
-    padding: 200px 15%;
+    padding: 10px 15% 500px 15%;
 }
 
 
@@ -269,12 +269,10 @@ input {
      margin-top: 5px;
  }
 
-.top-items {
-}
 
  .top-item {
      float: left;
-     margin-right: 20px;
+     margin-right: 50px;
      text-align: center;
      font-weight: bold;
  }
@@ -287,7 +285,7 @@ input {
     .top-logo {
         font-size: 2.5em;
         margin-top: 10px;
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 
     .top {
@@ -352,4 +350,8 @@ input {
 
     .list-img{
         height: 30px;
+    }
+
+    .block100 {
+        padding: 10px 10% 1000px 22%;
     }
