@@ -1,0 +1,1 @@
+document.write('<footer>©転回社</footer>');
