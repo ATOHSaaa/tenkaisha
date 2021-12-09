@@ -168,7 +168,8 @@ a {
 }
 
 .heading p {
-    margin-top: 0px;
+    margin-top: -50px;
+    line-height: 1.8em;
 }
 
 .page-top {
@@ -215,6 +216,8 @@ li {
     display: inline-block;
     margin-right: 15px;
     text-decoration-thickness: 1px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .member h4 a {
@@ -284,7 +287,7 @@ input {
     }
 
     .heading {
-        margin-top: -30px;
+        margin-top: 50px;
     }
 
     .heading p {
@@ -295,5 +298,29 @@ input {
     .page-top {
         font-size: 0.7em;
     }
+
+     .nav-top {
+         margin-left: 30px;
+         float: none;
+         margin-bottom: -40px;
+     }
+
+     .nav-list {
+         float: none;
+         margin-left: -30px;
+     }
+
+     header {
+         text-align: center;
+         margin-top: -10px;
+         margin-bottom: -100px;
+     }
+
+    .nav-list-items {
+        margin-right: 10px;
+        font-size: 0.9em;
+        margin-top: 40px;
+        float: none;
+        margin-right: 20px;
     
 }
