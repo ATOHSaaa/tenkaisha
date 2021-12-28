@@ -14,7 +14,17 @@ footer {
     padding: 10px;
 }
 
- 
+.member .fa-youtube {
+    color: #c4302b;
+    font-size: 1.2em;
+}
+
+.member .movie-list {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+
 
 .nav-top {
     font-size: 2em;
