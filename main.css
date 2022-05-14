@@ -170,7 +170,7 @@ a {
     text-align: right;
 }
 
-.project-link a {
+.project-link a, .class-link a {
     margin-top: 10px;
     margin-right: 10px;
     text-decoration: none;
@@ -181,28 +181,13 @@ a {
     padding: 10px 5px;
 }
 
-.project-link a:hover {
+.project-link a, .class-link a:hover {
     cursor: pointer;
     color: white;
     background-color: #FFC700;
 }
 
-.class-link a{
-    margin-top: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    display: inline-block;
-    background-color:#FFC700;
-    color: white;
-    border: solid white;
-    padding: 10px 5px;
-}
 
-.class-link a:hover {
-    cursor: pointer;
-    color: #FFC700;
-    background-color: white;
-}
 
 
 .form-area {
