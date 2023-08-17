@@ -16,8 +16,16 @@ footer {
     padding: 10px;
 }
 
+hr {
+    margin: 50px 0;
+}
+
 .project-link a {
     border-radius: 4px;
+}
+
+.member img {
+    border-radius: 8px;
 }
 
 .member .fa-youtube {
@@ -41,7 +49,7 @@ footer {
 
 .nav-top a {
     text-decoration: none;
-    padding-top: 30px;
+    padding-top: 40px;
     display: block;
 }
 
