@@ -1,17 +1,23 @@
 body {
-    background-color: #FFC700;
+    background-color: white;
     font-family: "Noto Sans JP",sans-serif;
     margin: 0px;
+    font-size: 16px;
 }
 
 header {
     padding-bottom: 150px;
+    background-color: #FFC700;
 }
 
 footer {
     background-color: black;
     color: white;
     padding: 10px;
+}
+
+.project-link a {
+    border-radius: 4px;
 }
 
 .member .fa-youtube {
@@ -24,18 +30,19 @@ footer {
     font-size: 0.9em;
 }
 
-
-
 .nav-top {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
-    margin: 30px 40px;
+    margin: 0px;
     letter-spacing: .1em;
     float: left;
+    margin-left: 30px;
 }
 
 .nav-top a {
     text-decoration: none;
+    padding-top: 20px;
+    display: block;
 }
 
 .nav-list {
@@ -131,10 +138,20 @@ a {
 
 .block200 {
     padding: 10px 15% 10px 15%;
+    background-color: #FFC700;
+}
+
+.top-item {
+    margin-top: 40px;
 }
 
 .top-item a{
     text-decoration: none;
+    font-size: 18px;
+}
+
+.top-item img{
+    border-radius: 10px;
 }
 
 .clearfix:after{
@@ -196,7 +213,8 @@ a {
 
 .heading {
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.4em;
+    background-color: white;;
 }
 
 .heading  h2{
@@ -208,7 +226,6 @@ a {
 }
 
 .heading p {
-    margin-top: -50px;
     line-height: 1.8em;
 }
 
@@ -216,11 +233,14 @@ a {
     letter-spacing: .4em;
     font-weight: bold;
     display: block;
+    background-color: white;
+    margin: 20px 0 0;
 }
 
 .page-top h2 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
+    margin: 40px 0px 0px;
 }
 
 li {
@@ -307,11 +327,14 @@ input {
 
 
  .top-item {
-     float: left;
-     margin-right: 3%;
+     float: center;
      text-align: center;
      font-weight: bold;
  }
+
+.works-img {
+    width: 200px;
+}
 
  .top-item p {
      margin-top: 0px;
@@ -321,6 +344,17 @@ input {
      margin-top: 30px;
      text-align: center;
  }
+
+.index-main h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.tweet-area {
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 767px) {
     .top-logo {
@@ -365,20 +399,21 @@ input {
     }
 
      .nav-top {
-         margin-left: 30px;
          float: none;
          margin-bottom: -40px;
+         padding-left: 0px !important;
      }
 
      .nav-list {
          float: none;
-         margin-left: -30px;
+         padding-left: 0;
      }
 
      header {
          text-align: center;
          margin-top: -10px;
          margin-bottom: -100px;
+         padding-bottom: 100px;
      }
 
      .nav-list-items {
@@ -390,10 +425,10 @@ input {
     }
 
     .list-img{
-        height: 30px;
+        height: 40px;
     }
 
     .block100 {
-        padding: 10px 10% 10px 22%;
+        padding: 10px;
     }
 }
