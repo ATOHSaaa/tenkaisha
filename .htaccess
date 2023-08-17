@@ -1,12 +1,7 @@
-AuthType Basic
-AuthName "tenkai"
-AuthUserFile ".htpasswdファイルの場所"
-require valid-user
-
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html 
 
 RewriteCond %{THE_REQUEST} \.(php|html)\ HTTP
-RewriteRule ^(.*)\.(php|html)$ /lp/$1 [R=301,L]
+RewriteRule ^(.*)\.(php|html)$ /$1 [R=301,L]
