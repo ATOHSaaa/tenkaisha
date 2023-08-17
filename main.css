@@ -31,7 +31,7 @@ footer {
 }
 
 .nav-top {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
     margin: 0px;
     letter-spacing: .1em;
@@ -41,7 +41,7 @@ footer {
 
 .nav-top a {
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 30px;
     display: block;
 }
 
