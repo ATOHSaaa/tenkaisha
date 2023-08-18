@@ -5,3 +5,9 @@ RewriteRule ^(.*)$ $1.html
 
 RewriteCond %{THE_REQUEST} \.(php|html)\ HTTP
 RewriteRule ^(.*)\.(php|html)$ /$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
