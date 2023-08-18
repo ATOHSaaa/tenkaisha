@@ -16,6 +16,31 @@ footer {
     padding: 10px;
 }
 
+.index-main h2 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.index-main h2:before, .index-main h2:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .index-main h2:before {
+    left:0;
+  }
+  .index-main h2:after {
+    right: 0;
+  }
+
 hr {
     margin: 50px 0;
 }
@@ -142,6 +167,7 @@ a {
 .block100, .block300 {
     background-color: white;
     padding: 10px 15% 10px 15%;
+    text-align: center;
 }
 
 .block200 {
@@ -176,7 +202,7 @@ a {
 
 
 .main h3 {
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: .2em;
     margin-top: 30px;
 }
@@ -353,11 +379,6 @@ input {
      text-align: center;
  }
 
-.index-main h2{
-    font-size: 2em;
-    text-align: center;
-}
-
 .tweet-area {
     text-align: center;
 }
@@ -434,5 +455,10 @@ input {
 
     .block100 {
         padding: 10px;
+    }
+
+    .page-top h1 {
+        padding-top: 60px;
+        font-size: 4em;
     }
 }
