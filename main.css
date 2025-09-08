@@ -404,6 +404,16 @@ h2 {
     width: 45%;
 }
 
+.about-text {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-top: 16px;
+    font-weight: normal;
+}
+
 @media screen and (max-width: 767px) {
 
     .block100 {
